@@ -1,4 +1,4 @@
-#Data Access
+# Data Access
 
 For our porpuse for analyzing the conditions and features of particles which end up into a halo dark matter at z = 0, we needed the data of particles in different snapshots.
 
@@ -15,3 +15,4 @@ We used the merger trees database to finding the history of each sub-halo. you c
 We downloaded about 20 MB data in three different redshifts 16.7, 5.3, 2.4 including the velocity vectors, spatial indices, halo mass, and the last progenitors( see the merger trees) IDs.
 we used these tables to access the data:
 
+# Analyzing of Data:
