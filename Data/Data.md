@@ -21,4 +21,5 @@ In order to visualize our data we plot some histograms which you can see as foll
 # Aknowledgements
 
 On a millenium run: https://arxiv.org/abs/astro-ph/0608019
+
 Springel, V . (2005), The cosmological simulation code GADGET-2, Mon. Not. R. Astron. Soc., 364, 1105 
