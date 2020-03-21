@@ -17,6 +17,7 @@ Here is the general information about the tables which millinium database contai
 # Simple analysis of Data
 
 In order to visualize our data we plot some histograms which you can see as follows.
+https://github.com/Machine-Learning-in-Structure-formation/NLSFML/blob/master/Data/Particles_distribution_in_space_at_z%3D0.png
 
 # Aknowledgements
 
