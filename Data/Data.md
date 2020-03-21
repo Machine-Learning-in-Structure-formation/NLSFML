@@ -18,8 +18,10 @@ Here is the general information about the tables which millinium database contai
 
 In order to visualize our data we plot some histograms which you can see as follows.
 
-The spatial distribution of particles in the millimil box in snapshot 63 which is equal to z = 0 
-![](github.com/Machine-Learning-in-Structure-formation/NLSFML/blob/master/Data/Particles_distribution_in_space_at_z%3D0.png)
+The spatial distribution of particles in the millimil box for snapshot 63 
+![](/Data/Particles_distribution_in_space_at_z%3D0.png)
+![](/Data/Snap63_1.9m_particles_spatial_distribution.PNG)
+
 
 
 # Aknowledgements
