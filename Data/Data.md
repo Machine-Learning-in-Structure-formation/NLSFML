@@ -18,6 +18,12 @@ Here is the general information about the tables which millinium database contai
 
 In order to visualize our data we plot some histograms which you can see as follows.
 
+The spatial distribution of particles in the millimil box for snapshot 63 
+![](/Data/Particles_distribution_in_space_at_z%3D0.png)
+![](/Data/Snap63_1.9m_particles_spatial_distribution.PNG)
+
+
+
 # Aknowledgements
 
 On a millenium run: https://arxiv.org/abs/astro-ph/0608019
