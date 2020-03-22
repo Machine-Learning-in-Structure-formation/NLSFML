@@ -19,11 +19,16 @@ Here is the general information about the related tables which millinium databas
 
 In order to visualize our data we plot some histograms which you can see as follows.
 
+Halo Mass histogram:
+we defined our halo class in a way that the minimum mass for a halo is equal to 1600 particles. as can be seen in the plot below, the number of halos with mass less than 10000 particles is much more than the bigger ones, as we expected from our cosmology. Total number of halos with np more than 1600 is also 706, while the total number of halos in the box (including the lighter ones) is around 37000.
+
 The spatial distribution of particles in the millimil box for snapshot 63 
 ![](/Data/Particles_distribution_in_space_at_z%3D0.png)
 ![](/Data/Snap63_1.9m_particles_spatial_distribution.PNG)
 
+snapshot 10:
 
+snapshot 0:
 
 # Aknowledgements
 
