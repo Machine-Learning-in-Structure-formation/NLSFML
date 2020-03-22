@@ -17,6 +17,7 @@ Here is the general information about the related tables which millinium databas
 for making our in and out classes, we couldn't run an exact query for getting the information straight from the database because of gate open time limit, so we collected the information about all the particles which exist in a halo with np>1600 at z=0 and we traced these particles into z=127 by running a python code, you can find the code in the current ripository: https://github.com/Machine-Learning-in-Structure-formation/NLSFML/blob/master/Data/IN_OUT_Halo_Particles.ipynb
 
 also we uploaded a sample of our created data about particles in their IN-OUT-halo information, which you can find it as a compress file here:
+0 is for the particles which end up into a halo with np >1600 in z=0 and 1 is for the others.
 
 unfortunatlly uploading the full data isn't possible, because of it large size. 
 # Simple analysis of Data
@@ -25,6 +26,8 @@ In order to visualize our data we plot some histograms which you can see as foll
 
 Halo Mass histogram:
 we defined our halo class in a way that the minimum mass for a halo is equal to 1600 particles. as can be seen in the plot below, the number of halos with mass less than 10000 particles is much more than the bigger ones, as we expected from our cosmology. Total number of halos with np more than 1600 is also 706, while the total number of halos in the box (including the lighter ones) is around 37000.
+
+
 ![](/Data/Histogram_of_halo_masses.png)
 
 The spatial distribution of particles in the millimil box for snapshot 63 
