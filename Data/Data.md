@@ -27,15 +27,13 @@ unfortunatlly uploading the full data isn't possible, because of it large size.
 
 **The list of contained codes in the data part**:
 
-1-[Particles spatial distribution at snapnumber = 63](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/blob/master/Data/Snap63_particle_distribution_in_space.ipynb)
+1-[Particles spatial distribution](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/blob/master/Data/Snap63_particle_distribution_in_space.ipynb)
 
-2-[Particles velocity distribution at snapnumber = 63](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/blob/master/Data/particle_velocity_distribution_z%3D0.ipynb)
+2-[Particles velocity distribution](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/blob/master/Data/particle_velocity_distribution_z%3D0.ipynb)
 
 3-[Halo mass histogram in z=0 and making IN and OUT classes](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/blob/master/Data/IN_OUT_Halo_Particles.ipynb)
 
-4-[Particles spatial distribution at snapnumber = 10]()
-
-5-[Particles spatial distribution at snapnumber = 0]()
+4-[Visualizing IN and OUT class particles in z=127 to get better understanding of effective features](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/blob/master/Data/plotting%20in%20and%20out%20particles%20in%20z%3D127.ipynb)
 
 
 # Simple analysis of Data
@@ -47,27 +45,38 @@ In order to visualize our data we plot some histograms, you can see them as foll
 we defined our halo class in a way that the minimum mass for a halo is equal to 1600 particles. as can be seen in the plot below, the number of halos with mass less than 10000 particles is much more than the bigger ones, as we expected from our cosmology. Total number of halos with np more than 1600 is also 706, while the total number of halos in the box (including the lighter ones) is around 37000.
 
 
-![](/Data/Histogram_of_halo_masses.png)
+![](/Data/plot/Histogram_of_halo_masses.png)
 
 **Snapshot 63:**
 
 Spatial distribution of particles in the millimil box:
-![](/Data/Particles_distribution_in_space_at_z%3D0.png)
+![](/Data/position%20plots/Particles_distribution_in_space_at_z%3D0.png)
 
-Also the velocity field of the particles were important for us, we again plotted the spatial distribution with information about each particles velocity:
+Also the velocity field of the particles were important for us, so we plotted the spatial distribution with information about each particles velocity:
 
-![](/Data/Particles_velocity_distribution_at_z%3D0.png)
-![](/Data/Particles_velocity_distribution_in_xyPlane_at_z%3D0.png)
-![](/Data/Particles_velocity_distribution_in_xzPlane_at_z%3D0.png)
+![](/Data/position%20plots/Particles_velocity_distribution_at_z%3D0.png)
+![](/Data/position%20plots/Particles_velocity_distribution_in_xyPlane_at_z%3D0.png)
+![](/Data/position%20plots/Particles_velocity_distribution_in_xzPlane_at_z%3D0.png)
 
-As can be seen most of the particles has a velocity around 100-500 km/s, while those near to center of halos has larger velocities as can be seen with a brighter blue color.
+As can be seen most of the particles has a velocity around 100-500 km/s, while those near to center of halos has larger velocities you can see them with a brighter blue color.
 the maximum velocity of a particle in our dataset were around 2000 km/s but the number of particles with this high velocities is quite low. 
 
 **snapshot 10:**
+Spatial distribution and velocity field for particles in z=16.7:
+![](/Data/position%20plots/Particles_velocity_distribution_at_z%3D16.7.png)
+![](/Data/position%20plots/Particles_velocity_distribution_in_xyPlane_at_z%3D16.7.png)
+![](/Data/position%20plots/Particles_velocity_distribution_in_xzPlane_at_z%3D16.7.png)
+
+colors in these plots can show that there exist a wider range of velocities in this redshift, which can be occured because of wider range of velocities in this redshift.
 
 **snapshot 0:**
+Spatial distribution and velocities in z=127, which is our terget redshift:
+![](/Data/position%20plots/Particles_velocity_distribution_at_z%3D127.png)
+![](/Data/position%20plots/Particles_velocity_distribution_in_xyPlane_at_z%3D127.png)
+![](/Data/position%20plots/Particles_velocity_distribution_in_xzPlane_at_z%3D127.png)
 
 
+**For a more detailed physical analysis of the plots check out [our report]()**
 # Aknowledgements
 
 On a millenium run: https://arxiv.org/abs/astro-ph/0608019
