@@ -14,7 +14,7 @@ First a data from [merger trees database](http://gavo.mpa-garching.mpg.de/MyMill
 
 Second the particles data which contain all the data of a given particle at a given redshift. But as this data were quite large (about 1TB on the hole millinium run) and also in order to make a fair balance between accuracy of results and run-time (even run-time for our queries! which couldn't be more than 30 minute in each run), we forced to work on the "millimil" in place of the hole run. It contains the data of a 60*60*60 (h^-1 Mpc)^3 box with about 20 milion particles and 5 Kpc resolution. We collected about 5GB data of all particles in this box for 3 snapshots. Including the spatial indices and velocity vectors of each particle.
 
-[A short report of the used queries.]()
+[A short report of the used queries.](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/blob/master/Data/Queries.txt)
 
 Here is the general information about the related tables which millinium database contain, we used MPAHalo, MillimilSnapshotIDs and MillimiSnapshots for our purpose:
 ![](/Data/tables.PNG)
