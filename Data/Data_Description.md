@@ -7,7 +7,7 @@ We used the [Virgo-Millenium database](https://wwwmpa.mpa-garching.mpg.de/millen
 A millenium run uses 10^10 particles of mass 8.6×108 h^-1 * M_sun, to follow the evolution of the dark matter distribution within a cubic region of sides 500 h^−1 Mpc from z = 127 (snapNumber = 0) until z = 0 (snapNumber = 63) . The cosmological parameters assumed are Ωm = Ωdm +Ωb = 0.25, Ωb = 0.045,  ΩΛ = 0.75, h = 0.73, σ8 = 0.9 and n = 1 with standard deﬁnitions for all quantities. 
 
 In order to access the data we used the standard Structural Query Language(SQL).
-***You can find a much expanded description about Millinium run and our queries in [our report]().***
+***You can find a much expanded description about Millinium run and our queries in [our report](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/blob/master/Data/ML_Project_Part_1_Data.pdf).***
  
 We derived our demanded data in two ways: 
 First a data from [merger trees database](http://gavo.mpa-garching.mpg.de/MyMillennium/Help?page=mergertrees) on the history of a given halo at a given redshift. Which in this context we started to clasify our data in two groups in a special way, an In-halo-particle at any redshift(z) is a sub-halo with mass between 20 to 100 m_particle ( equal to 8.6 × 10^8 h^-1 * M_sun) which will end up into a larger halo with the minimum mass of 1600 m_particle (means 1.4 * 10^12 h^-1 * M_sun) at z = 0. An out-halo-particle is visa versa a sub-halo with mass between 20 and 100 m_particle, which do not end up in a halo with a mass larger than the above limit at z=0. we collected about 30MB data in 4 different snapshots (redshift) of this type. including  velocity vectors, spatial indices, halo mass, and the last progenitor(see the merger trees) IDs.
@@ -86,7 +86,7 @@ We made our IN and OUT classes with this [code](https://github.com/Machine-Learn
 ![](/Data/plot/IN_OUT_xz.png)
 
 
-***For a more detailed physical analysis of the plots check out [our report.]()***
+***For a more detailed physical analysis of the plots check out [our report.](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/blob/master/Data/ML_Project_Part_1_Data.pdf)***
 # Aknowledgements
 
 On a millenium run: https://arxiv.org/abs/astro-ph/0608019
