@@ -91,7 +91,7 @@ We made our IN and OUT classes with this [code](https://github.com/Machine-Learn
 
 On a millenium run: https://arxiv.org/abs/astro-ph/0608019
 
-Springel, V . (2005), The cosmological simulation code GADGET-2, Mon. Not. R. Astron. Soc., 364, 1105
+Springel, V . (2005), The cosmological simulation code GADGET-2, Mon. Not. R. Astron. Soc., 364, 1105: https://wwwmpa.mpa-garching.mpg.de/gadget/
 
 Machine learning cosmological structure formation: https://arxiv.org/abs/1802.04271
 
