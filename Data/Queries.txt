@@ -1,0 +1,32 @@
+select *
+from MMSnapshots..MillimilSnapshots s
+where s.snapnum = 63
+
+_________________________________________________________________________
+
+select *
+from MMSnapshots..MillimilSnapshots s
+where s.snapnum = 0
+
+_________________________________________________________________________
+
+
+select s.particleId, s.subhaloId, h.np, h.redshift
+from MMSnapshots..MillimilSnapshotIDs s'
+	millimil..MPAHalo h 
+where s.subhaloId = h.subHaloID
+	and h.np > 1600
+	and h.snapnum = 63
+
+__________________________________________________________________________
+
+select des.haloId as descendant_Id, des.np as descendant_mass, des.redshift as des_z, des.snapnum,
+	prog.*
+from millimil..MPAHalo des,
+	millimil..MPAHalo prog
+where des.snapnum = 63
+	and des.np < 1600
+	and prog.haloId between des.haloId and des.lastprogenitorId
+	and prog.snapnum = 0
+	and prog.np < 100
+order by des.np desc, prog.np desc
