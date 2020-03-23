@@ -14,24 +14,28 @@ First a data from [merger trees database](http://gavo.mpa-garching.mpg.de/MyMill
 
 Second the particles data which contain all the data of a given particle at a given redshift. But as this data were quite large (about 1TB on the hole millinium run) and also in order to make a fair balance between accuracy of results and run-time (even run-time for our queries! which couldn't be more than 30 minute in each run), we forced to work on the "millimil" in place of the hole run. It contains the data of a 60*60*60 (h^-1 Mpc)^3 box with about 20 milion particles and 5 Kpc resolution. We collected about 5GB data of all particles in this box for 3 snapshots. Including the spatial indices and velocity vectors of each particle.
 
-[A short report of the used queries]()
+[A short report of the used queries.]()
 
 Here is the general information about the related tables which millinium database contain, we used MPAHalo, MillimilSnapshotIDs and MillimiSnapshots for our purpose:
 ![](/Data/tables.PNG)
 
-for making our "IN" and "OUT" classes, we couldn't run an exact query for getting the information straight from the database because of the limit in the gate's openning time, so we collected the information about all the particles which exists in halos with np>1600 at z=0 and we traced these particles into z=127 by running a python code, which you can find it [here](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/blob/master/Data/IN_OUT_Halo_Particles.ipynb)
+for making our "IN" and "OUT" classes, we couldn't run an exact query for getting the information straight from the database because of the limit in the gate's openning time, so we collected the information about all the particles which exists in halos with np>1600 at z=0 and we traced these particles into z=127 by running a python code, which you can find it [here.](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/blob/master/Data/IN_OUT_Halo_Particles.ipynb)
 
 also we uploaded a sample of our created data of particles in their IN-OUT-halo information,and we uploaded it as a [compress file]().
 1 is for the particles which end up into a halo with np >1600 in z=0 (nearly 5 milion particles) and 0 is for the others.
 unfortunatlly uploading the full data isn't possible, because of it large size.
 
-**The list of contained codes in this part**:
+**The list of contained codes in the data part**:
 
-[Particles spatial distribution at snapnumber = 63](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/blob/master/Data/Snap63_particle_distribution_in_space.ipynb)
-[Particles velocity distribution at snapnumber = 63](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/blob/master/Data/particle_velocity_distribution_z%3D0.ipynb)
-[Halo mass histogram in z=0 and making IN and OUT classes](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/blob/master/Data/IN_OUT_Halo_Particles.ipynb)
-[Particles spatial distribution at snapnumber = 10]()
-[Particles spatial distribution at snapnumber = 0]()
+1-[Particles spatial distribution at snapnumber = 63](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/blob/master/Data/Snap63_particle_distribution_in_space.ipynb)
+
+2-[Particles velocity distribution at snapnumber = 63](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/blob/master/Data/particle_velocity_distribution_z%3D0.ipynb)
+
+3-[Halo mass histogram in z=0 and making IN and OUT classes](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/blob/master/Data/IN_OUT_Halo_Particles.ipynb)
+
+4-[Particles spatial distribution at snapnumber = 10]()
+
+5-[Particles spatial distribution at snapnumber = 0]()
 
 
 # Simple analysis of Data
