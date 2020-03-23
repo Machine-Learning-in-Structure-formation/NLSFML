@@ -62,6 +62,7 @@ As can be seen most of the particles has a velocity around 100-500 km/s, while t
 the maximum velocity of a particle in our dataset were around 2000 km/s but the number of particles with this high velocities is quite low. 
 
 **snapshot 10:**
+
 Spatial distribution and velocity field for particles in z=16.7:
 ![](/Data/position%20plots/Particles_velocity_distribution_at_z%3D16.7.png)
 ![](/Data/position%20plots/Particles_velocity_distribution_in_xyPlane_at_z%3D16.7.png)
@@ -70,6 +71,7 @@ Spatial distribution and velocity field for particles in z=16.7:
 colors in these plots can show that there exist a wider range of velocities in this redshift, which can be occured because of wider range of velocities in this redshift.
 
 **snapshot 0:**
+
 Spatial distribution and velocities in z=127, which is our terget redshift:
 ![](/Data/position%20plots/Particles_velocity_distribution_at_z%3D127.png)
 ![](/Data/position%20plots/Particles_velocity_distribution_in_xyPlane_at_z%3D127.png)
@@ -77,6 +79,15 @@ Spatial distribution and velocities in z=127, which is our terget redshift:
 
 
 **For a more detailed physical analysis of the plots check out [our report]()**
+
+**Visualizing IN and OUT classes:**
+
+We made our IN and OUT classes with this [code](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/blob/master/Data/plotting%20in%20and%20out%20particles%20in%20z%3D127.ipynb), and to get better understanding we plotted their spatial distribution in the early time z=127, IN class particles are about 5 milions and showed with purple, OUT class particles are about 19 milion and showed with yellow color.
+
+![](/Data/plot/IN_OUT.png)
+![](/Data/plot/IN_OUT_xy.png)
+![](/Data/plot/IN_OUT_xz.png)
+
 # Aknowledgements
 
 On a millenium run: https://arxiv.org/abs/astro-ph/0608019
