@@ -21,7 +21,7 @@ Here is the general information about the related tables which millinium databas
 
 for making our "IN" and "OUT" classes, we couldn't run an exact query for getting the information straight from the database because of the limit in the gate's openning time, so we collected the information about all the particles which exists in halos with np>1600 at z=0 and we traced these particles into z=127 by running a python code, which you can find it [here.](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/blob/master/Data/IN_OUT_Halo_Particles.ipynb)
 
-also we made a sample of our created data of particles with their IN-OUT-halo information in a column named In_halo which can have only two values, 0 or 1,and we uploaded it as a [compress file]().
+also we made a sample of our created data of particles with their IN-OUT-halo information in a column named In_halo which can have only two values, 0 or 1, we uploaded it into the [data sample file](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/tree/master/Data/Data_Sample).
 1 is for the particles which end up into a halo with np >1600 in z=0 (nearly 5 milion particles) and 0 is for the others.
 unfortunatlly uploading the full data isn't possible, because of it's large size.
 
