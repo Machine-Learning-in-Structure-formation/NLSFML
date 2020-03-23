@@ -68,7 +68,8 @@ Spatial distribution and velocity field for particles in z=16.7:
 ![](/Data/position%20plots/Particles_velocity_distribution_in_xyPlane_at_z%3D16.7.png)
 ![](/Data/position%20plots/Particles_velocity_distribution_in_xzPlane_at_z%3D16.7.png)
 
-colors in these plots can show that there exist a wider range of velocities in this redshift.
+colors in these plots can shows that there exist a wider range of velocities in this redshift.
+
 **snapshot 0:**
 
 Spatial distribution and velocities in z=127, which is our terget redshift:
@@ -85,9 +86,16 @@ We made our IN and OUT classes with this [code](https://github.com/Machine-Learn
 ![](/Data/plot/IN_OUT_xz.png)
 
 
-***For a more detailed physical analysis of the plots check out [our report]()***
+***For a more detailed physical analysis of the plots check out [our report.]()***
 # Aknowledgements
 
 On a millenium run: https://arxiv.org/abs/astro-ph/0608019
 
-Springel, V . (2005), The cosmological simulation code GADGET-2, Mon. Not. R. Astron. Soc., 364, 1105 
+Springel, V . (2005), The cosmological simulation code GADGET-2, Mon. Not. R. Astron. Soc., 364, 1105
+
+Machine learning cosmological structure formation: https://arxiv.org/abs/1802.04271
+
+Andrew Pontzen Luisa Lucie-Smith Hiranya V. Peiris. “An interpretable machine learning framework for dark matter halo formation”. In: (2019). url: https://arxiv.org/abs/1906.06339. 
+
+Andrew R. Zentner. “The Excursion Set Theory of Halo Mass Functions, Halo Clustering, and Halo Growth”. In: (2006). url: https://arxiv.org/ abs/astro-ph/0611454.
+
