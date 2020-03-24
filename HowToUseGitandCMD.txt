@@ -1,0 +1,41 @@
+How to use Gitub!
+Installing
+https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+How to use terminal
+Very basic descriptions like move and copy files: https://towardsdatascience.com/a-quick-guide-to-using-command-line-terminal-96815b97b955
+To open terminal you can simply search cmd or command promptin Start.
+There is a list of useful commands here (there are different commands for mac, the list of equivalent commands in a link below):
+	Echo: print text. One can print in two lines by using &
+Echo something & echo something again!
+	Cd: cd alone prints where you are! You can use cd also for go to the next folder.
+	Cd .. : reverse.
+	Dir: prints the files there are in your current position.
+	Cls: cleans the terminal
+	Doskey /h or F7 :show history… what you’ve done.
+	Mkdir: create a new  folder
+	Type nul > : create files like “type nul > c.py”. it can be used for any type.
+	Notepad: instead of vim or edit in windows 64bit.
+	Python: run a .py file.
+	Help
+	Command --help
+List of commands:
+https://www.lemoda.net/windows/windows2unix/windows2unix.html
+One can drop the file into cmd window to take its address.Github commands in terminal:
+	Git config --global user.name “Parimah Safarian”
+	Git config --global user.mail “parimahsfarian@gmail.com”
+	Github clone URLlink
+	Git status: to see your situation in github
+	Git branch: see branches
+	Git branch newbranch: create one
+	Git checkout newbranch: move to the branch
+	Git log: history of actions in the repo
+	Git pull: updates the local version of the repo
+	Git add some thing
+	Git add –A: -A means all
+	Git commit –m “commit comment”: commit changes
+	Git push: push to the repo!
+	Git diff: prints the differences
+	Git push –u origin newbranch: pushes the new branch
+	Git merge newbranch
+
+
