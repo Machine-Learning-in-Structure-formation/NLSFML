@@ -17,6 +17,7 @@ Second the particles data which contain all the data of a given particle at a gi
 [A short report of the used queries.](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/blob/master/Data/Queries.txt)
 
 Here is the general information about the related tables which millinium database contain, we used MPAHalo, MillimilSnapshotIDs and MillimiSnapshots for our purpose:
+
 ![](/Data/tables.PNG)
 
 for making our "IN" and "OUT" classes, we couldn't run an exact query for getting the information straight from the database because of the limit in the gate's openning time, so we collected the information about all the particles which exists in halos with np>1600 at z=0 and we traced these particles into z=127 by running a python code, which you can find it [here.](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/blob/master/Data/IN_OUT_Halo_Particles.ipynb)
