@@ -20,74 +20,20 @@ Here is the general information about the related tables which millinium databas
 
 ![](/Data/tables.PNG)
 
-for making our "IN" and "OUT" classes, we couldn't run an exact query for getting the information straight from the database because of the limit in the gate's openning time, so we collected the information about all the particles which exists in halos with np>1600 at z=0 and we traced these particles into z=127 by running a python code, which you can find it [here.](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/blob/master/Data/IN_OUT_Halo_Particles.ipynb)
+Now we are ready to analyse our data and create our appropriate classes, you can find our complete notebook [here.](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/blob/master/Data/Full_codes_plots.ipynb)
 
-also we made a sample of our created data of particles with their IN-OUT-halo information in a column named In_halo which can have only two values, 0 or 1, we uploaded it into the [data sample file](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/tree/master/Data/Data_Sample).
-1 is for the particles which end up into a halo with np >1600 in z=0 (nearly 5 milion particles) and 0 is for the others.
-unfortunatlly uploading the full data isn't possible, because of it's large size.
+**The list of contained codes in the [Notebook](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/blob/master/Data/Full_codes_plots.ipynb)**:
 
-**The list of contained codes in the data part**:
+1-Visualizing and generating IN and OUT class particles in z=127 to get better understanding of effective features
 
-1-[Particles spatial distribution](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/blob/master/Data/Snap63_particle_distribution_in_space.ipynb)
+2-Halo mass histogram in z=0 and making IN and OUT classes
 
-2-[Particles velocity distribution](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/blob/master/Data/particle_velocity_distribution_z%3D0.ipynb)
+3-Particles spatial distribution for different snapshots
 
-3-[Halo mass histogram in z=0 and making IN and OUT classes](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/blob/master/Data/IN_OUT_Halo_Particles.ipynb)
+4-Particles velocity distribution for different snapshots
 
-4-[Visualizing IN and OUT class particles in z=127 to get better understanding of effective features](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/blob/master/Data/plotting%20in%20and%20out%20particles%20in%20z%3D127.ipynb)
+**Also you can find a sample of the finalized data [here.](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/tree/master/Data/Data_Sample)** unfortunatlly uploading the full data isn't possible, because of it's large size.
 
-
-# Simple analysis of Data
-
-In order to visualize our data we plotted some histograms, you can see them as follows. These are the analysis of particle datas.
-
-**Halo Mass histogram:**
-
-we defined our halo class in a way that the minimum mass for a halo is equal to 1600 particles. as can be seen in the plots below, the number of halos with mass less than 10000 particles is much more than the bigger ones, as we expected from our cosmology. Total number of halos with np more than 1600 is also 706, while the total number of halos in the box (including the lighter ones) is around 37000.
-
-
-![](/Data/plot/Histogram_of_halo_masses.png)
-
-**Snapshot 63:**
-
-Spatial distribution of particles in the millimil box:
-![](/Data/position%20plots/Particles_distribution_in_space_at_z%3D0.png)
-
-Also the velocity field of the particles were important for us, so we plotted the spatial distribution with information about each particles velocity:
-
-![](/Data/position%20plots/Particles_velocity_distribution_at_z%3D0.png)
-![](/Data/position%20plots/Particles_velocity_distribution_in_xyPlane_at_z%3D0.png)
-![](/Data/position%20plots/Particles_velocity_distribution_in_xzPlane_at_z%3D0.png)
-
-As can be seen most of the particles has a velocity around 100-500 km/s, while those near to center of halos has larger velocities you can see them with a brighter blue color.
-the maximum velocity of a particle in our dataset were around 2000 km/s but the number of particles with such a high velocities is quite low. 
-
-**snapshot 10:**
-
-Spatial distribution and velocity field for particles in z=16.7:
-![](/Data/position%20plots/Particles_velocity_distribution_at_z%3D16.7.png)
-![](/Data/position%20plots/Particles_velocity_distribution_in_xyPlane_at_z%3D16.7.png)
-![](/Data/position%20plots/Particles_velocity_distribution_in_xzPlane_at_z%3D16.7.png)
-
-colors in these plots can shows that there exist a wider range of velocities in this redshift.
-
-**snapshot 0:**
-
-Spatial distribution and velocities in z=127, which is our terget redshift:
-![](/Data/position%20plots/Particles_velocity_distribution_at_z%3D127.png)
-![](/Data/position%20plots/Particles_velocity_distribution_in_xyPlane_at_z%3D127.png)
-![](/Data/position%20plots/Particles_velocity_distribution_in_xzPlane_at_z%3D127.png)
-
-**Visualizing IN and OUT classes:**
-
-We made our IN and OUT classes with this [code](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/blob/master/Data/plotting%20in%20and%20out%20particles%20in%20z%3D127.ipynb), and to get better understanding we plotted their spatial distribution in the early time z=127, IN class particles are about 5 milions and showed with purple, OUT class particles are about 19 milion and showed with yellow color.
-
-![](/Data/plot/IN_OUT.png)
-![](/Data/plot/IN_OUT_xy.png)
-![](/Data/plot/IN_OUT_xz.png)
-
-
-***For a more detailed physical analysis of the plots check out [our report.](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/blob/master/Data/ML_Project_Part_1_Data.pdf)***
 # Aknowledgements
 
 On a millenium run: https://arxiv.org/abs/astro-ph/0608019
