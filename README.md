@@ -35,7 +35,8 @@ Now we are ready to analyse our data and create our appropriate classes, you can
 
 4-Particles velocity distribution for different snapshots
 
-**Also you can find a sample of the finalized data [here.](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/tree/master/Data/Data_Sample)** unfortunatlly uploading the full data isn't possible, because of it's large size.
+**Also you can find a sample of the finalized data [here.](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/tree/master/Data/Data_Sample)** 
+unfortunatlly uploading the full data isn't possible, because of it's large size.
 
 # - Aknowledgements
 
