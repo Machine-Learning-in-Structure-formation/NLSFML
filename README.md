@@ -1,3 +1,5 @@
+# This repository is not up to date with our latest research in this era.
+
 # 0 - Machine learning in non linear structure formation
 Machine learning methods in investigating the Halo Dark matter formation.
 Full description of project in the termpaper report: [Reprot part1](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/blob/master/Machine_Learning_Termpaper.pdf)
@@ -46,7 +48,7 @@ Springel, V . (2005), The cosmological simulation code GADGET-2, Mon. Not. R. As
 
 Machine learning cosmological structure formation: https://arxiv.org/abs/1802.04271
 
-Andrew Pontzen Luisa Lucie-Smith Hiranya V. Peiris. “An interpretable machine learning framework for dark matter halo formation”. In: (2019). url: https://arxiv.org/abs/1906.06339. 
+Luisa Lucie-Smith, Hiranya V. Peiris, Andrew Pontzen “An interpretable machine learning framework for dark matter halo formation”. In: (2019). url: https://arxiv.org/abs/1906.06339. 
 
 Andrew R. Zentner. “The Excursion Set Theory of Halo Mass Functions, Halo Clustering, and Halo Growth”. In: (2006). url: https://arxiv.org/ abs/astro-ph/0611454.
 
