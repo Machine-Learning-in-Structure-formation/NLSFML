@@ -1,7 +1,7 @@
 # This repository is not up to date with our latest research. The codes for the latest progress and results will get publicly available after the paper's publication.
 
 # 0 - Machine learning in non linear structure formation
-Machine learning methods in investigating the Halo Dark matter formation.
+### Machine learning methods in investigating the Halo Dark matter formation.
 Full description of this step in our termpaper: [Reprot part1](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/blob/master/Machine_Learning_Termpaper.pdf)
 # 1 - Data Access
 
