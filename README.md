@@ -1,4 +1,4 @@
-# This repository is not up to date with our latest research in this era.
+# This repository is not up to date with our latest research. The codes for the latest progress and results will get publicly available after the paper's publication.
 
 # 0 - Machine learning in non linear structure formation
 Machine learning methods in investigating the Halo Dark matter formation.
