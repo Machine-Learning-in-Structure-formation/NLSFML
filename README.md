@@ -1,8 +1,8 @@
 # This repository is not up to date with our latest research. The codes for the latest progress and results will get publicly available after the paper's publication.
 
 # 0 - Machine learning in non linear structure formation
-### Machine learning methods in investigating the Halo Dark matter formation.
-Full description of this step in our termpaper: [Reprot part1](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/blob/master/Machine_Learning_Termpaper.pdf)
+Machine learning methods in investigating the Halo Dark matter formation.
+### Full description of this step in our termpaper: [Reprot part1](https://github.com/Machine-Learning-in-Structure-formation/NLSFML/blob/master/Machine_Learning_Termpaper.pdf)
 # 1 - Data Access
 
 For our porpuse for analyzing the conditions and features of particles which end up into a halo dark matter at z = 0, we needed the data of particles in different snapshots. Also we needed a unique ID for all the particles during the whole run, which would let us to trace back particles in time. And this is the reason that find Millenium database appropriate for our project. (in comparison with other datasets like [IllustrisTNG](https://www.tng-project.org/data/) )
